@@ -1,0 +1,7 @@
+Scripts/
+Lib/
+__pycache__/
+Include/
+pyvenv.cfg
+*.json
+testing.py
