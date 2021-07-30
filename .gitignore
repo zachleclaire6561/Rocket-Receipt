@@ -5,3 +5,4 @@ Include/
 pyvenv.cfg
 *.json
 testing.py
+*.code-workspace
