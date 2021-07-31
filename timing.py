@@ -18,6 +18,7 @@ class timing:
             'Nov': 11, 
             'Dec': 12
         }
+        #regex extracts times into array
         times = re.search(r'([a-zA-Z]*)\s*([a-zA-Z]*)\s*([0-9]*)\s*([0-9]*):([0-9]*):([0-9]*)\s*([0-9]*)', time.asctime())
         hr_min_sec = [times.group(4), times.group(5), times.group(6)]
         curr_year = times.group(7)
